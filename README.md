@@ -44,7 +44,7 @@ const ravi: Engineer = {
         <img src="https://img.shields.io/badge/Razorpay_%2B_PayPal-Payments-00457C?style=flat-square" />
       </p>
       <p>✅ Staging → prod release pipeline · CI-gated migrations · automated 3-2-1 backups</p>
-      <p><a href="https://github.com/ravikr-mca/her-aviation-era">→ View the repo</a></p>
+      <p><a href="https://github.com/ravikr-mca/her-aviation-era-architecture">→ Read the architecture deep dive</a> · product source is private (commercial SaaS)</p>
     </td>
     <td width="50%">
       <h3>🔧 What's Next</h3>
