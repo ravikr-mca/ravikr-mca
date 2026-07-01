@@ -17,11 +17,11 @@
 const ravi: Engineer = {
   role:        "Full-Stack Engineer",
   focus:       "Building products from 0 → 1",
-  currentlyOn: "Her Aviation Era — Next.js 16 + React 19 SaaS",
-  stack:       ["TypeScript", "Next.js", "React", "Tailwind CSS", "Node.js"],
-  deploysTo:   ["Vercel", "GitHub Actions CI/CD"],
-  askMeAbout:  ["Web Architecture", "Performance", "DX", "Open Source"],
-  funFact:     "I automate my git hooks before writing the first component 🤓",
+  currentlyOn: "Her Aviation Era — full-stack SaaS (Next.js 16 + Supabase)",
+  stack:       ["TypeScript", "Next.js", "React", "Tailwind CSS", "Supabase", "Node.js"],
+  deploysTo:   ["Vercel", "GitHub Actions CI/CD", "Supabase (Postgres)"],
+  askMeAbout:  ["Web Architecture", "Payments", "Release Engineering", "DX"],
+  funFact:     "I run staging + prod as separate Supabase projects and never touch prod without a CI gate 🤓",
 };
 ```
 
@@ -32,23 +32,27 @@ const ravi: Engineer = {
 <table>
   <tr>
     <td width="50%">
-      <h3>🛫 <a href="https://her-aviation-era.vercel.app">Her Aviation Era</a></h3>
-      <p>A cinematic cabin crew coaching landing site. Full-stack, production-grade, deployed.</p>
+      <h3>🛫 <a href="https://heraviationera.com">Her Aviation Era</a></h3>
+      <p>A full-stack SaaS coaching aspiring cabin crew end to end — interview prep, study modules,
+      an aspirant toolkit, mock interviews, paid coaching bookings, and a founder-run admin back
+      office. Not a landing page — a real product with paying members.</p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js" />
         <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" />
         <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind-v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/Supabase-Postgres-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
+        <img src="https://img.shields.io/badge/Razorpay_%2B_PayPal-Payments-00457C?style=flat-square" />
       </p>
-      <p>✅ CI/CD → GitHub Actions → Vercel</p>
+      <p>✅ Staging → prod release pipeline · CI-gated migrations · automated 3-2-1 backups</p>
+      <p><a href="https://github.com/ravikr-mca/her-aviation-era">→ View the repo</a></p>
     </td>
     <td width="50%">
       <h3>🔧 What's Next</h3>
       <ul>
+        <li>Stripe integration for global card coverage</li>
         <li>Building in public</li>
         <li>Open-source tooling</li>
-        <li>LeetCode + system design</li>
-        <li>Production SaaS → launch</li>
+        <li>System design + release engineering</li>
       </ul>
     </td>
   </tr>
@@ -74,6 +78,13 @@ const ravi: Engineer = {
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+
+**Backend & Data**
+
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white)
+![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)
 
 **Tools & Infrastructure**
 
@@ -125,7 +136,7 @@ const ravi: Engineer = {
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-ravikr--mca-181717?style=for-the-badge&logo=github)](https://github.com/ravikr-mca)
-[![Live Site](https://img.shields.io/badge/Live_Site-her--aviation--era.vercel.app-6366F1?style=for-the-badge&logo=vercel)](https://her-aviation-era.vercel.app)
+[![Live Site](https://img.shields.io/badge/Live_Site-heraviationera.com-6366F1?style=for-the-badge&logo=vercel)](https://heraviationera.com)
 
 </div>
 
